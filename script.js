@@ -265,7 +265,6 @@ btnRight.addEventListener('click', nextSlide);
 btnLeft.addEventListener('click', prevSlide);
 
 document.addEventListener('keydown', function(e) {
-  // console.log(e);
   e.key === 'ArrowRight' && nextSlide(); // short circuiting
   e.key === 'ArrowLeft' && prevSlide();
 });
