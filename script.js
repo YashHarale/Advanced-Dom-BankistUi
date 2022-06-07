@@ -101,7 +101,7 @@ tabsContainer.addEventListener('click', function(e) {
 
   clicked.classList.add('operations__content--active');
 
-})
+});
 
 // Menu fade animation
 
@@ -146,7 +146,7 @@ const stickyNav = function (entries) {    // The callback function
 
   if (!entry.isIntersecting) nav.classList.add('sticky');
   else nav.classList.remove('sticky');
-}
+};
 
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null, // We need to look for the viewport so thats why we set 'root: null'
@@ -175,7 +175,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 allSections.forEach( function(section) {
   sectionObserver.observe(section);
   // section.classList.add('section--hidden');
-})
+});
 
 // Lazy loading images
 const imgTargets = document.querySelectorAll('img[data-src]');
