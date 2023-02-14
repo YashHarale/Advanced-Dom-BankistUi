@@ -31,13 +31,13 @@ body {
   color: #444;
   line-height: 1.9;
   /* background-color: black;  */
-  background-color: #f3f3f3;
+  background-color: #988484;
 }
 
 /* GENERAL ELEMENTS */
 .section {
   padding: 15rem 3rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #726e6e;
 
   transition: transform 1s, opacity 1s;
 }
@@ -128,7 +128,7 @@ img {
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(114, 106, 106, 0.95);
 }
 
 .nav__logo {
@@ -275,7 +275,7 @@ h4 {
   max-width: 100rem;
   margin: 12rem auto 0 auto;
 
-  background-color: #fff;
+  background-color: #7f7474;
 }
 
 .operations__tab-container {
@@ -411,7 +411,7 @@ h4 {
   z-index: 10;
 
   border: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(130, 122, 122, 0.7);
   font-family: inherit;
   color: #333;
   border-radius: 50%;
